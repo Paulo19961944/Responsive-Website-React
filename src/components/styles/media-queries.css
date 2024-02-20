@@ -1,0 +1,19 @@
+@media screen and (max-width: 540px) {
+    .menu-icon{
+        display: block;
+    }
+
+    .navigation-content{
+        display: none;
+    }
+
+    .header, .main-content, .footer-content, .navigation-link{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header, .main-content, .footer-content, .navigation-link{
+        font-size: 0.7rem;
+    }
+}
